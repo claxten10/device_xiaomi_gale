@@ -112,7 +112,7 @@ ro.hardware.gatekeeper=beanpod
 ro.vendor.mtk_log_hide_gps=1
 
 # HWUI
-ro.hwui.render_ahead=20
+ro.hwui.render_ahead=2
 debug.hwui.use_hint_manager=true
 
 # Keymaster
@@ -208,7 +208,7 @@ ro.surface_flinger.set_touch_timer_ms=500
 ro.surface_flinger.set_idle_timer_ms=3000
 ro.surface_flinger.uclamp.min=130
 debug.sf.disable_client_composition_cache=1
-debug.sf.auto_latch_unsignaled=0
+debug.sf.auto_latch_unsignaled=1
 debug.sf.disable_backpressure=1
 debug.sf.enable_gl_backpressure=0
 debug.sf.enable_hwc_vds=0
