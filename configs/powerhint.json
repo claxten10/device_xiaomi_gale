@@ -59,10 +59,10 @@
     },
     {
       "Name": "DRAMOppMin",
-      "Path": "/proc/perfmgr/boost_ctrl/dram_ctrl/ddr",
+      "Path": "/sys/devices/platform/10012000.dvfsrc/helio-dvfsrc/dvfsrc_req_ddr_opp",
       "Values": [
-        "1",
-        "-1"
+        "0",
+        "1"
       ],
       "ResetOnInit": true
     },
